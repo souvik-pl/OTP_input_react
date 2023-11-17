@@ -1,0 +1,54 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+section {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section input {
+    width: 15%;
+    height: 45px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+section input::-webkit-outer-spin-button,
+section input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+section input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+}
